@@ -16,4 +16,4 @@ exclude: ['_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'REA
 
 prose:
   siteurl: "https://joinuplift.github.io"
-  media: "assets/img/posts/"
+  media: "assets/img/posts"
