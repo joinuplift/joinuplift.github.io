@@ -10,3 +10,4 @@ url: "https://joinuplift.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: /:title
+exclude: ['node_modules', 'Gruntfile.js', 'package.json']
