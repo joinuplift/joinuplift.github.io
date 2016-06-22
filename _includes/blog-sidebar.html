@@ -1,0 +1,15 @@
+<div class="col-4-12">
+    <div class="blog-intro">
+        <p class="sidebar-heading">BLOG</p>
+        <p>{{content}}</p>
+    </div>
+    <div class="categories-all">
+        <p class="sidebar-heading">CATEGORIES</p>
+        <ul>
+            <li class="category-active"><a href="/blog">All</a></li>
+            {% for category in site.categories %}
+            <li><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

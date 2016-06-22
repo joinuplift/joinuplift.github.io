@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div id="blog">
+    <div class="grid blog-content">
+      <div class="col-8-12">
+        <h1 class="page-heading">Blog</h1>
+
+        <ul class="post-list">
+            {% for post in site.posts %}
+              <li class="post">
+                {% if post.image %}
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="img-post" style="background-image: url('/img/{{ post.image }}');"></div></a>
+                {% endif %}
+                <div class="blog-excerpt">
+                    <ul class="category-post">
+                        {% for category in post.categories %}
+                        <li>{{ category }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h1></a>
+                    <p>{{ post.content | strip_html | truncatewords:75}}</p>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <button class="read-more-btn">Read Story</button> 
+                    </a>
+                </div>
+                <div class="buttons">
+                    <div class="col-1-3">
+                        <ul class="text-center social-icons">
+                            <a href="mailto:?&amp;body={{ post.title }}%20{{ site.blogurl }}{{ post.url }}">
+                                <li><i class="fa fa-envelope"></i></li>
+                            </a>
+                            <!--getting hashtags for tweet-->
+                                {% assign tagStr = '' %}
+                                {% for tag in post.tags %}
+                                {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
+                                {% endfor %}
+                            <a href="https://twitter.com/intent/tweet?text={{ post.title }}&amp;url={{ site.blogurl }}{{ post.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}&amp;hashtags={{ tagStr }}" rel="nofollow" target="_blank" title="Share on Twitter">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="https://facebook.com/sharer.php?u={{ site.blogurl }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+              </li>
+
+            {% endfor %}
+        </ul>
+        
+      </div>
+      {% include blog-sidebar.html %}
+	</div>
+</div>
