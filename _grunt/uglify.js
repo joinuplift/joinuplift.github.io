@@ -1,6 +1,6 @@
 module.exports = {
 	build: {
-		src: ['dist/js/application.js'],
-		dest: 'dist/js/application.min.js'
+		src: ['_src/js/application.js'],
+		dest: 'assets/js/application.min.js'
 	}
 }

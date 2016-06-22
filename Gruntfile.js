@@ -26,10 +26,30 @@ grunt.initConfig(config);
 require('load-grunt-tasks')(grunt);
 
 // Default task(s).
-grunt.registerTask('default', ['newer:imagemin:dynamic', 'connect',  'concat', 'sass', 'browserSync', 'watch']);
-grunt.registerTask('build', ['clean', 'imagemin', 'svgstore', 'concat', 'uglify', 'sass']);
-grunt.registerTask('delete', ['clean']);
-grunt.registerTask('svgsprite', ['svgstore']);
+//grunt.registerTask('default', ['newer:imagemin:dynamic',  'concat', 'sass', 'browserSync', 'watch']);
 
-grunt.registerTask('images', ['imagemin']);
+// Register the grunt serve task
+grunt.registerTask('serve', [
+    'concurrent:serve'
+]);
+
+// Register the grunt build task
+grunt.registerTask('build', [
+    'shell:jekyllBuild',
+    'sass',
+    'newer:imagemin:dynamic'
+]);
+
+grunt.registerTask('svgsprite', [
+    'svgstore'
+]);
+
+grunt.registerTask('images', [
+    'imagemin'
+]);
+
+// Register build as the default task fallback
+grunt.registerTask('default', 'build');
+
+
 };
