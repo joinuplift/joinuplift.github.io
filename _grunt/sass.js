@@ -5,7 +5,7 @@ module.exports = {
       sourceMap: true
     },
     files: {
-      '/assets/css/style.css': '_src/sass/index.scss',
+      'assets/css/style.css': '_src/sass/index.scss',
     }
   }
 }
