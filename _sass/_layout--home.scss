@@ -1,0 +1,277 @@
+h1 span.logotext {
+	display:none;
+}
+
+.columns-extreme-poverty {
+	width:100%;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	div[class^="col-"] {
+		padding:0 .2em 0 0; 
+		margin:0;
+		width: 16.5%;
+		@media #{$brk-narrow} {
+			width: 100%;
+		}
+	}
+	svg {
+		height: 117px;
+		width:117px;
+	}
+}
+
+
+.column-container {
+	min-height:10em;
+	text-align:center;
+	padding:0 1em;
+	color:#000;
+	line-height:1.7;
+	img {
+		@media #{$brk-narrow} {
+		  width: 100%;
+		  max-width: 120px;
+		}
+	}
+}
+
+.graduation {
+	width:90%;
+	margin-top:1.9em
+}
+
+.section { 
+	padding:2em 0 3em 0;
+	margin: 2.5em 0;
+	@media #{$brk-narrow} {
+		text-align: center;
+	}
+	&.white {
+		background-color: $white-light;
+		color: #000;
+	}
+}
+
+.carousel {
+	max-width:960px;
+	margin:0 auto;
+	@media #{$brk-narrow} {
+	  width: 80%;
+	}
+	.news-container {
+		@media #{$brk-narrow} {
+			text-align: center;
+			margin-bottom: 2.5em;
+		}
+		img {
+			width: 90%;
+		}
+		h2 {
+			width: 95%;
+		}
+		a {
+			color:#000;
+			text-decoration: none;
+		}
+	}
+}
+
+.ui-tabs-panel {
+	min-height: 20em;
+	margin-top:2em;
+	@media #{$brk-narrow} {
+		height: auto;
+	}
+	p {
+		width:80%;
+		margin:0 auto;
+		text-align: left;
+	}
+}
+#tabs ul {
+	@media #{$brk-narrow} {
+		display: none !important;
+	}
+}
+
+.tab-section {
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+#tabs-1,
+#tabs-3 {
+	@media #{$brk-narrow} {
+		background: #f1f1f1;
+		padding: 10px;
+	}
+}
+
+#tabs-2,
+#tabs-4 {
+	@media #{$brk-narrow} {
+		background: white;
+		padding: 10px;
+	}
+}
+
+.fullscreenimgbg {
+	background-size: 100%;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: top center;
+	position:relative;
+	h1 {
+		padding-top: 2em;
+		@media #{$brk-narrow} {
+		  padding-top: 2.5em;
+		  width: 100%;
+		}
+	}
+	p {
+		@media #{$brk-narrow} {
+			width: 100%;
+		}
+	}
+	blockquote {
+		width: 40%;
+		text-shadow: 1px 1px 5px #000;
+		@media #{$brk-narrow} {
+		  width: 90%;
+		  margin:4em auto 0 auto;
+		}
+	}
+}
+
+.hero {
+	h1,p {
+		width: 30%;
+		@media #{$brk-narrow} {
+			width: 100%;
+		}
+	}
+	p {
+	  margin-top: -62px;
+	  @include transform(-13deg);
+	  font-weight: normal;
+  	  line-height: 1.3;
+	  height: 200px;
+	  margin-left: 40px;
+	  text-align: center;
+	  font-size: 2.2em;
+	  font-style: italic;
+		@media #{$brk-narrow} {
+		  width: 100% !important;
+		  @include transform(0);
+		  margin:0;
+		}
+	}
+	svg {
+		width: 360px;
+  		height: 235px;
+  		@media #{$brk-narrow} {
+  			width: 300px;
+  			margin:0 auto;
+  		}
+	}
+	@media (min-width: 1540px) {
+	  height: 55em !important; 
+	}
+	@media (min-width: 1950px) { 
+	  height: 65em !important; 
+	}
+	@media (max-width: 480px) {
+	  background-image: url('#{$assets-path}hero-image-mobile.jpg') !important;
+	}
+}
+.why-now-section {
+	background-position: top center;
+	position:relative;
+	@media #{$brk-narrow} {
+	  background-image: url('#{$assets-path}why-now-bg-mobile.jpg') !important;
+	}
+}
+.why-now {
+	color: #000;
+	width:50%;
+	margin:0 0 0 5%;
+	@media #{$brk-narrow} {
+	  width: 85%;
+	}
+	a {
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	p {
+		padding:1em;
+	}
+}
+
+.arrow-section {
+	padding:40px 30px;
+	position:relative;
+	background: $gold;
+	color:#fff;
+	p {
+		font-size: 1.8em;
+		@media #{$brk-narrow} {
+			font-size: 1.4em;
+			width: 80%;
+		}
+	}
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(0, 0, 0, 0);
+		border-top-color: $gold;
+		border-width: 30px;
+		margin-left: -30px;
+	}
+}
+
+button {
+	&.submit-mail {
+		//float:right;
+		max-width: 150px;
+		@media #{$brk-narrow} {
+			width: 95%;
+			max-width: none;
+			margin:0 auto;
+			//float: none;
+		}
+	}
+}
+
+.blue-bg {
+		p.important-italic {
+		width: 85%;
+		margin:2em auto 0 auto;
+		line-height: 1.7;
+	}
+}
+
+.everyone {
+	background: #802275;
+	color: white;
+}
+
+.bottom-quote {
+	@media #{$brk-narrow} {
+	  background-image: url('#{$assets-path}bottom-banner-image-mobile.jpg') !important;
+	}
+}
+
+.half-raiser {
+	padding-bottom: 0.5em;
+	display: block;
+}

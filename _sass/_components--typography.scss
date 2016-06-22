@@ -1,0 +1,149 @@
+// colors 
+.white {
+	color:#fff;
+}
+
+h1, h2, h3 {
+	font-family: $Open-sans;
+	text-transform:uppercase;
+}
+.logo {
+	color:#fff;
+	position:absolute;
+	top:0;
+	font-size:1em;
+	left: 1em;
+}
+
+h1 {
+	font-size:2.7em;
+	&.subsection {
+		font-size:1.8em;
+		@media #{$brk-narrow} {
+		  padding-left: 10px;
+		  padding-right: 10px;
+		}
+	}
+}
+
+h2 {
+	font-size:1.2em;
+}
+
+h3 {
+	font-size:1em;
+	text-transform: none;
+}
+
+p, ul, li {
+	font-family:$Open-sans;
+	line-height:1.5;
+	&.merriweather {
+		font-family: $Merriweather;
+	}
+}
+
+a {
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	&:hover {
+		text-decoration:underline;
+	}
+}
+ 
+a.secondary {
+	font-family:arial;
+	font-weight:normal;
+	font-size:.9em;
+}
+
+p.small {
+	font-size:.7em;
+	font-family:Arial;
+}
+
+.italic { 	font-style: italic; }
+.bold { font-weight: bold;}
+.all-caps { text-transform: uppercase;}
+.bigtext { font-size:1.8em;}
+
+.important-italic {
+	font-family: $Open-sans;
+	font-weight: 700;
+	font-style:italic;
+	font-size:1.2em;
+}
+
+.column-container { 
+	p {
+		font-family:$Merriweather;
+		font-style: italic;
+		margin-top: 0;
+	}
+	h2 {
+		line-height: 1;
+		margin-bottom: .3em;
+	}
+}
+
+.fullscreenimgbg {
+	color:#fff;
+	h1,p {
+		width: 50%;
+		font-weight: bold;
+		margin:0;
+	}
+	p {
+		text-shadow: 0 0 5px #000;
+		font-size: 2.5em;
+		letter-spacing: 1px;
+		line-height: 1.5;
+		span {
+			font-family: $Open-sans;
+		}
+		@media #{$brk-narrow} {
+		  font-size: 1.5em;
+		}
+	}
+	blockquote {
+		margin-top:5em;
+		text-align: center;
+		font-style: italic;
+		font-family: $Merriweather;
+		line-height: 1.4;
+		font-size: 2em;
+		footer {
+			text-transform: uppercase;
+			font-family: $Gotham; 
+			font-weight: bold;
+			font-style: normal;
+			font-size: .8em;
+			margin-top: 1em;
+		}
+	}
+}
+
+.center {
+	text-align:center;
+}
+
+.fifty {
+	width:70%;
+	margin:0 auto;
+}
+
+.photo-credit {
+  color: white;
+  text-shadow: #000 0 0 0.2em;
+  font-size: 0.8em;
+  display: block;
+  font-family: $stack-sans-serif;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+  &.black {
+  	color: #000;
+  	text-shadow: none;
+  }
+}
