@@ -51,7 +51,7 @@ prose:
         field:
           element: "text"
           label: "Post Image"
-          help: "Once you have uploaded the post image, write the name here. example : mypost.jpg"
+          help: "Once you have uploaded the post image (from the text editor), write the name here. Example : mypost.jpg"
           placeholder: "mypost.jpg"
           type: "text"
       - name: "categories"
