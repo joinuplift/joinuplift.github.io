@@ -47,6 +47,13 @@ prose:
         field:
           element: "text"
           value: "label"
+      - name: "postImage"
+        field:
+          element: "text"
+          label: "Post Image"
+          help: "Once you have uploaded the post image, write the name here. example : mypost.jpg"
+          placeholder: "mypost.jpg"
+          type: "text"
       - name: "categories"
         field:
           element: "multiselect"
