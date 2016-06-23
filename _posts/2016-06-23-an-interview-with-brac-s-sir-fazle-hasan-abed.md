@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: An interview with BRAC’s Sir Fazle Hasan Abed
 image: article-sirabed.jpg
 categories:
