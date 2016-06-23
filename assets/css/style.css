@@ -1161,10 +1161,13 @@ button.submit-mail {
   #blog .post {
     margin-top: 65px;
     background-color: #fff;
-    border: 1px solid #D8D8D8; }
+    border: 1px solid #D8D8D8;
+    width: 100%; }
     #blog .post .blog-excerpt {
       padding: 0 1.5em; }
       #blog .post .blog-excerpt p {
         padding-bottom: 1em; }
+      #blog .post .blog-excerpt img {
+        width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

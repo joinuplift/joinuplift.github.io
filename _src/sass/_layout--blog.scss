@@ -99,10 +99,14 @@
 		margin-top: 65px;
 		background-color: #fff;
 		border: 1px solid $color-gray-light;
+		width:100%;
 		.blog-excerpt {
 			padding: 0 1.5em;
 			p {
 				padding-bottom: 1em;
+			}
+			img {
+				width: 100%;
 			}
 		}
 	}

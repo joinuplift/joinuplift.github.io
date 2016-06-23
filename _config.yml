@@ -12,6 +12,14 @@ markdown: kramdown
 permalink: /:title
 exclude: ['_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md']
 
+defaults:
+  -
+    scope:
+      type: "posts"
+    values: 
+      layout: "post"
+      permalink: /blog/:title
+
 
 
 prose:
