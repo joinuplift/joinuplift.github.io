@@ -31,3 +31,29 @@ prose:
   rooturl: '_posts'
   siteurl: "https://joinuplift.github.io"
   media: "assets/img/posts"
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_grunt
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+      field:
+        element: "text"
+        label: "title"          
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "Bangladesh"
+              value: "bangladesh"
+            - name: "Graduation"
+              value: "graduation"
