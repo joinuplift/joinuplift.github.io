@@ -11,7 +11,7 @@ layout: default
               <li class="post">
                 {% if post.image %}
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="img-post" style="background-image: url('/img/{{ post.image }}');"></div></a>
+                <div class="img-post" style="background-image: url('/assets/img/posts/{{ post.image }}');"></div></a>
                 {% endif %}
                 <div class="blog-excerpt">
                     <ul class="category-post">
