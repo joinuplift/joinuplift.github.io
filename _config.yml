@@ -28,5 +28,6 @@ defaults:
 
 
 prose:
+  rooturl: '_posts'
   siteurl: "https://joinuplift.github.io"
   media: "assets/img/posts"
