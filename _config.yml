@@ -47,7 +47,7 @@ prose:
         field:
           element: "text"
           value: "label"
-      - name: "postImage"
+      - name: "image"
         field:
           element: "text"
           label: "Post Image"
