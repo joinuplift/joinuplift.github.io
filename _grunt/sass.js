@@ -1,7 +1,7 @@
 module.exports = {
-  dist: {
+  compile: {
     options: {
-      style: 'expanded',
+      style: 'compressed',
       sourceMap: true
     },
     files: {

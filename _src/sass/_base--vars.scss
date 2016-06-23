@@ -28,7 +28,7 @@ $color-blue-dark			: #167292;
 
   // Mixins
  @mixin transition($length) {
- 	-webkit-transition: all $length ease-out;
+ 	-webkit-transition: all $length ease-out; 
 	-moz-transition: all $length ease-out;
 	-ms-transition: all $length ease-out;
 	-o-transition: all $length ease-out;
