@@ -1085,13 +1085,13 @@ button.submit-mail {
 .blog-header {
   height: 60px;
   background-color: #fff;
-  position: fixed;
   width: 100%; }
-  .blog-header .blog-nav {
-    margin-top: 20px; }
+  .blog-header h1 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px; }
 
 #blog {
-  box-shadow: inset 0 61px 2px -1px #D8D8D8;
   background-color: #F2F2F2;
   padding-bottom: 4em; }
   #blog ul {
@@ -1104,8 +1104,6 @@ button.submit-mail {
     width: auto;
     margin: .5em 1.5em .5em 0;
     padding: .5em 1em; }
-  #blog .blog-content {
-    padding-top: 60px; }
   #blog .page-heading {
     margin: 1em 0 -1.5em 0;
     font-size: 34px; }
@@ -1130,7 +1128,8 @@ button.submit-mail {
     font-family: "Open Sans", Helvetica, Arial, sans-serif; }
   #blog .categories-all li {
     display: block;
-    margin: 1.5em 0; }
+    margin: 1.5em 0;
+    text-transform: capitalize; }
   #blog .categories-all .category-active {
     border-left: 3px solid;
     padding-left: 1.4em;

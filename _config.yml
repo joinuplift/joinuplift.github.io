@@ -1,5 +1,5 @@
 # Site settings
-title: Uplift - Overcoming Extreme Poverty
+title: Uplift
 email: contact@joinuplift.org
 description: >
   Uplift is a rapidly growing initiative committed to empowering the next one million 
@@ -19,7 +19,11 @@ defaults:
     values: 
       layout: "post"
       permalink: /blog/:title
-
+  -
+    scope:
+      path: "/category"
+      permalink: /blog/category/:title
+      layout: "category"
 
 
 prose:

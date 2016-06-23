@@ -1,14 +1,14 @@
 .blog-header {
 	height: 60px;
 	background-color: #fff;
-	position: fixed;
 	width: 100%;
-	.blog-nav {
-		margin-top: 20px; 
+	h1 {
+		max-width: 1140px;
+		margin: 0 auto;
+		padding: 0 15px;
 	}
 }
 #blog {
-	box-shadow: inset 0 61px 2px -1px $color-gray-light;
 	background-color: $color-gray-background;
 	padding-bottom: 4em;
 	ul {
@@ -23,9 +23,6 @@
 		width: auto;
 		margin: .5em 1.5em .5em 0;
 		padding: .5em 1em; 
-	}
-	.blog-content {
-		padding-top: 60px;
 	}
 	.page-heading {
 		margin: 1em 0 -1.5em 0;
@@ -60,6 +57,7 @@
 		li {
 			display: block;
 			margin: 1.5em 0;
+			text-transform: capitalize;
 		}
 		.category-active {
 			border-left: 3px solid;

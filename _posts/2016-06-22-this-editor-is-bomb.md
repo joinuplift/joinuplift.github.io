@@ -1,6 +1,7 @@
 ---
 published: true
 image: orig_BG-SN-2009-02-0713.jpg
+category: graduation
 ---
 ## I'm just testing the awesomeness here
 
