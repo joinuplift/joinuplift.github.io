@@ -1,14 +1,16 @@
 
     <div class="blog-intro">
         <p class="sidebar-heading">BLOG</p>
-        <p>The Impact Atlas blog is a space to share updates, stories from the field and answer use case questions. Thanks for following along with our Journey!</p>
+        <p>The Uplift blog is a space to share updates, stories from the initiative and answer questions. Thanks for following along with our Journey!</p>
     </div>
     <div class="categories-all">
         <p class="sidebar-heading">CATEGORIES</p>
         <ul>
-            <li class="category-active"><a href="/blog">All</a></li>
+            <li {% if page.url == '/blog/' %}class="category-active"{% endif %}><a href="/blog">All</a></li>
             {% for category in site.categories %}
-            <li><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+            {% assign currentCategory = category | first | slugify %}
+            <li {% if page.category == currentCategory %}class="category-active"{% endif %}><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
             {% endfor %}
         </ul>
     </div>
+
