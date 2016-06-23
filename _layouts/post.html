@@ -5,6 +5,7 @@ layout: default
     <div class="grid blog-content">
       <div class="col-8-12">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        	{% if page.image %}<div class="img-post" style="background-image: url('/assets/img/posts/{{ page.image }}');"></div>{% endif %}
         	<div class="blog-excerpt">
 			  <header class="post-header">
 			    <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
@@ -26,4 +27,4 @@ layout: default
 		  	</a>
       	</div>
 	</div>
-</div>
+</div> 
