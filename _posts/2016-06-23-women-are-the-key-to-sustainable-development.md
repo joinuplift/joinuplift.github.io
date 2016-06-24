@@ -10,7 +10,7 @@ categories:
 ## Women are the key to sustainable development
 
 
-The trajectory of poverty alleviation is a long one, and while some organizations focus solely on social protection programs or microfinance, Sir Abed described the importance of providing “disruptive” approaches to the plight of poverty. BRAC’s unique response led to the creation of the Graduation approach designed to increase the social and economic capital of the world’s poorest families.
+The trajectory of poverty alleviation is a long one, and while some organizations focus solely on social protection programs or microfinance, Sir Abed described the importance of providing “disruptive” approaches to the plight of poverty. BRAC’s unique response led to the creation of the Graduation approach designed to increase the social and economic capital of the world’s poorest families
 
 ### Seventy cents a day
 
