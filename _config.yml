@@ -60,7 +60,9 @@ prose:
           label: "Add Categories"
           placeholder: "Choose Categories"
           options:
-            - name: "Bangladesh"
-              value: "bangladesh"
-            - name: "Graduation"
-              value: "graduation"
+            - name: "Partnerships"
+              value: "partnerships"
+            - name: "Impact Stories"
+              value: "impact stories"
+            - name: "Uplift News"
+              value: "uplift news"
