@@ -3,8 +3,6 @@ layout: post
 published: true
 title: Women are the key to sustainable development
 image: group.jpg
-categories:
-  - graduation
 ---
 
 ## Women are the key to sustainable development
