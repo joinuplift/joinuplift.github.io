@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-<div class="blog-header">
-    <a href="/">
-        <h1>{{ site.title }}</h1>
-    </a>
-</div>
+{% include blog-header.html %}
 <div id="blog">
     <div class="grid blog-content">
       <div class="col-8-12">
@@ -26,8 +22,8 @@ layout: default
                     </ul>
                     <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h1></a>
                     <p>{{ post.content | strip_html | truncatewords:75}}</p>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <button class="read-more-btn">Read Story</button> 
+                    <a class="post-link " href="{{ post.url | prepend: site.baseurl }}">
+                        Read Story
                     </a>
                 </div>
                 <div class="buttons">

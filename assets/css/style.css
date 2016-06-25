@@ -1083,13 +1083,21 @@ button.submit-mail {
   display: block; }
 
 .blog-header {
-  height: 60px;
+  height: 120px;
   background-color: #fff;
   width: 100%; }
-  .blog-header h1 {
+  .blog-header .logo-container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px; }
+    display: block; }
+  .blog-header img {
+    margin: 10px auto 0 auto; }
+  .blog-header h1 {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-indent: -9999999px;
+    background-size: auto 60px;
+    background-repeat: no-repeat; }
 
 #blog {
   background-color: #F2F2F2;
@@ -1106,10 +1114,12 @@ button.submit-mail {
     padding: .5em 1em; }
   #blog .page-heading {
     margin: 1em 0 -1.5em 0;
-    font-size: 34px; }
+    font-size: 34px;
+    text-transform: capitalize; }
   #blog h1 {
     margin: 15px 0;
-    font-size: 25px; }
+    font-size: 25px;
+    text-transform: capitalize; }
   #blog .col-8-12, #blog .col-4-12 {
     padding: 0 1em; }
   #blog .col-4-12 {
@@ -1157,6 +1167,8 @@ button.submit-mail {
       text-transform: uppercase;
       font-weight: 700;
       color: #D8D8D8; }
+  #blog .post-link {
+    color: #f15c27; }
   #blog .post {
     margin-top: 65px;
     background-color: #fff;
