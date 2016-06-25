@@ -3,8 +3,6 @@ layout: post
 published: true
 title: An interview with BRAC’s Sir Fazle Hasan Abed
 image: article-sirabed.jpg
-categories:
-  - bangladesh
 ---
 ## An interview with BRAC’s Sir Fazle Hasan Abed
 
