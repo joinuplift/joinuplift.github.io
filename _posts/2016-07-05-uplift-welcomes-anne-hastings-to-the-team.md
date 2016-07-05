@@ -21,8 +21,6 @@ To begin the trip, Anne accompanied a team of Fonkoze implementers and her new U
 
 But signs of a turnaround for Heureuse were already present. Although she hadn’t yet received her assets, she had formed a good relationship with her Fonkoze case manager who will visit her weekly for the next 18 months to provide coaching, stipends, money-making assets, and more. The case manager had already made an impact when he had taken a child to hospital and taught the family to use a water filter he provided.
 
-Mimose and Sonya (photo credit: Fonkoze)
-
 The next two families Anne visited were also characteristic of a typical ultra poor family. They lived in a very rural setting, far from reliable access to health care and other services. They were nine months into the program but already you could see the progress they had made. They had reasonably housing, the kids were in school, their productive assets were producing income to put food on the table.
 
 Next they visited Sonya and Mimose — both of whom are disabled, Sonya from a stroke and Mimose who can no longer walk on her own. They are both now getting along reasonably well, have small businesses on the side of the road and sit together selling their wares every day.
@@ -31,7 +29,7 @@ Anne reports: “Right away you could see the difference. The women were learnin
 
 Sonya was the grandmother of a new baby that had just been born eight days before. She explained to Anne that the baby had been born on the dirt road while the mother was walking miles to a Partners in Health hospital. The new mother asked Anne to name the baby, and she obliged. Anne chose Impatience, a testament to the baby’s eagerness to enter the world.
 
-A Graduation like no other
+## A Graduation like no other
 
 After visiting a new Partner’s in Health teaching hospital, Anne and the team got to take in a graduation ceremony in which 243 women were celebrated for building the confidence and skills necessary to create a better life for themselves and their families. An incredible 96% of CLM members successfully complete the program and transform their lives.
 
