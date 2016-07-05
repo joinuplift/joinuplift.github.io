@@ -4,7 +4,7 @@ published: true
 title: How the Graduation Approach Works With Social Protection Programs
 image: Header.jpg
 categories:
-  - impact stories
+  - partnerships
 ---
 The question of how graduation approaches can work with existing social protection programs is becoming central to efforts of governments, funders and implementers as they consider how to effectively reduce poverty and increase resiliency.
 
