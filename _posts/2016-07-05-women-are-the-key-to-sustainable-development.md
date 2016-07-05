@@ -12,7 +12,7 @@ Sir Abed spoke on “Leading Development in Bangladesh” as part of Yale SOM’
 
 BRAC’s approach has proven successful, making the organization the world’s largest NGO with an annual budget exceeding $700M, 80% of which is generated from its social enterprises. In Freedom from Want, Ian Smillie calls BRAC “undoubtedly the largest and most variegated social experiment in the developing world. The spread of its work dwarfs any other private, government or non-profit enterprise in its impact on development.”
 
-![BRAC]({{site.baseurl}}/assets/img/posts/orig_BG-SN-2009-02-0713.jpg)
+![BRAC]({{site.baseurl}}/assets/img/posts/orig__MG_9644-768x512.jpg)
 
 Founder and Chairperson of BRAC Sir Fazle Hasan Abed has visited Karail slum and BRAC School in Dhaka. He went there for a photo session of WISE book.
 
