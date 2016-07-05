@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Now is the time to invest in Graduation
 image: philanthropy-one.jpg
 categories:
