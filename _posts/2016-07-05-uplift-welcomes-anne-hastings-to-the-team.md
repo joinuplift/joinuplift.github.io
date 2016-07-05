@@ -10,7 +10,7 @@ categories:
 
 Recently, Anne had the opportunity, after three years away, to return to Haiti, where she originally came as a volunteer and stayed 17 years. Anne went to see Fonkoze’s remarkable program known as Chemen Lavi Miyò (Pathway to a Better Life), which she founded. This program empowers Haiti’s poorest women to pull themselves and their families from ultra poverty into self-sufficiency. Chemen Lavi Miyò, also known as CLM, is modeled on BRAC’s proven Graduation Approach and is like the programs Uplift was created to help scale and accelerate.  
 
-Off the plane in Port Au Prince, straight out to Central Plateau
+## Off the plane in Port Au Prince, straight out to Central Plateau
 
 ![fonkoze-graduation-Feb.2016-768x505.jpg]({{site.baseurl}}/assets/img/posts/fonkoze-graduation-Feb.2016-768x505.jpg)
 
