@@ -1131,6 +1131,9 @@ button.submit-mail {
   #blog .col-4-12 {
     margin-top: 6.2em;
     padding-left: 5em; }
+    @media handheld, only screen and (max-width: 767px) {
+      #blog .col-4-12 {
+        padding-left: 10px; } }
     #blog .col-4-12 .blog-intro {
       border-left: 1px solid #D8D8D8;
       padding-left: 1.5em; }
