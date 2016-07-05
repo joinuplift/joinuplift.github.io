@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: How the Graduation Approach Works With Social Protection Programs
 image: Header.jpg
 categories:
