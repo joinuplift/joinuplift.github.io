@@ -4,7 +4,7 @@ published: true
 title: Uplift welcomes Anne Hastings to the team
 image: article-anne-hastings.jpg
 categories:
-  - uplift-news
+  - uplift news
 ---
 [Uplift](http://joinuplift.org), Amplifier’s collaborative initiative to eradicate extreme poverty, is excited to welcome Anne Hastings to the team. Anne spent almost two decades in the leadership of Fonkoze – Haiti’s largest microfinance institution. She is a Founder of Fonkoze Financial Services, S.A. created in July 2004. In 2008, she was honored at the United Nations because of her commitment to the elimination of extreme poverty.
 
