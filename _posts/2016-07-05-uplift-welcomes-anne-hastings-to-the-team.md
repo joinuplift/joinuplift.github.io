@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Uplift welcomes Anne Hastings to the team
 image: article-anne-hastings.jpg
 categories:
