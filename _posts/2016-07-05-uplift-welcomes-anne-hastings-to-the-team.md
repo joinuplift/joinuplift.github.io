@@ -36,5 +36,3 @@ After visiting a new Partner’s in Health teaching hospital, Anne and the team 
 Uplift is dedicated to ensuring that Graduations like these are the norm in needy communities across the globe.
 
 “When I saw what Uplift had set out to accomplish, I knew this was the kind of global effort I wanted to be a part of. We know the graduation program works in most every context. The next phase is how to scale it up in every country that has this type of poverty. It’s a big goal, but it is doable. I trust that many people will want to be part of this effort. We have an ethical and moral obligation to rid the world of this kind of poverty.”
-
-To read more about Uplift and get involved, please visit joinuplift.org.
