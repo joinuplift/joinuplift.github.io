@@ -2,6 +2,9 @@
 layout: post
 published: false
 title: Now is the time to invest in Graduation
+image: philanthropy-one.jpg
+categories:
+  - partnerships
 ---
 In May 2015, the Abdul Latif Jameel Poverty Action Lab ([J-PAL](http://www.povertyactionlab.org/about-j-pal)) and Innovations for Poverty Action ([IPA](http://www.poverty-action.org/))–two of the most renowned research organizations in the world–published an [article in Science Magazine](http://science.sciencemag.org/content/348/6236/1260799) demonstrating that the Graduation Approach is not only tremendously effective, but it has a lasting impact on the lives of the least well off.
 
@@ -21,4 +24,5 @@ _The Graduation program’s primary goal, to substantially increase consumption 
 
 The evidence demonstrates again why Amplifier, BRAC and our other partners started Uplift, an initiative committed to scaling the Graduation Approach. Uplift is a rapidly scaling initiative committed to empowering the next one million women and families across 20 countries with basic skills, training and assets to overcome extreme poverty.
 
-When we empower the poor and marginalized, we open the doors for real and lasting transformation on the most pressing social issues facing the world—from climate change to hunger to peace. To get involved in Uplift, please click on this [link](http://joinuplift.org/).
+When we empower the poor and marginalized, we open the doors for real and lasting transformation on the most pressing social issues facing the world—from climate change to hunger to peace. To get involved in Uplift, please click on this [link](http://joinuplift.org/)![philanthropy-one.jpg]({{site.baseurl}}/assets/img/posts/philanthropy-one.jpg)
+.
