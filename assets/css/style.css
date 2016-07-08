@@ -430,6 +430,11 @@ button {
   border: 1px solid;
   right: 14%; }
 
+#blog .post .blog-excerpt .share-buttons {
+  vertical-align: sub; }
+  #blog .post .blog-excerpt .share-buttons img {
+    width: 20px; }
+
 input[type=text], input[type=email], input[type=url], input[type=date], input[type=month], input[type=time], input[type=datetime], input[type=datetime-local], input[type=week], input[type=number], input[type=search], input[type=tel], input[type=color], select, textarea {
   padding: .5em .6em;
   display: inline-block;

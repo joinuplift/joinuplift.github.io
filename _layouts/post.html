@@ -10,7 +10,14 @@ layout: default
         	<div class="blog-excerpt">
 			  <header class="post-header">
 			    <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
-			    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">Date published: {{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+			    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">Date published: {{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • 
+			    <span class="share-buttons">
+				    <a target="_blank" href="https://www.facebook.com/sharer.php?u={{page.url | prepend: site.url }}"><img src="/assets/img/icons/facebook.svg"/></a> 
+				    <a target="_blank" href="https://twitter.com/share?url={{ page.url | prepend: site.url }}"><img src="/assets/img/icons/twitter.svg"/></a> 
+				    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{page.url | prepend: site.url}}"><img src="/assets/img/icons/linkedin.svg"/></a> 
+				    <a target="_blank" href="mailto:?subject=look at this website&amp;body={{page.url | prepend: site.url }}"><img src="/assets/img/icons/mail.svg"/></a>
+				</span>
+			    </p>
 			  </header>
 
 			  <div class="post-content" itemprop="articleBody">
