@@ -219,9 +219,16 @@ button {
 	position: absolute;
 	font-family:  $Open-sans;
     color: #fff;
-    top: 2%;
+    top:52px;
     z-index: 999;
     padding: 10px 30px;
     border: 1px solid;
     right: 14%;
+}
+
+#blog .post .blog-excerpt .share-buttons {
+	vertical-align: sub;
+	img {
+		width: 20px;
+	}
 }

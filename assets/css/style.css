@@ -139,9 +139,9 @@ body {
     min-width: 0;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 20px;
+    padding-left: 0;
     /* grid-space to left */
-    padding-right: 10px;
+    padding-right: 5px;
     /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */ }
   [class*='col-'] {
     width: auto;
@@ -424,11 +424,16 @@ button {
   position: absolute;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
-  top: 2%;
+  top: 52px;
   z-index: 999;
   padding: 10px 30px;
   border: 1px solid;
   right: 14%; }
+
+#blog .post .blog-excerpt .share-buttons {
+  vertical-align: sub; }
+  #blog .post .blog-excerpt .share-buttons img {
+    width: 20px; }
 
 input[type=text], input[type=email], input[type=url], input[type=date], input[type=month], input[type=time], input[type=datetime], input[type=datetime-local], input[type=week], input[type=number], input[type=search], input[type=tel], input[type=color], select, textarea {
   padding: .5em .6em;
@@ -710,6 +715,9 @@ svg.link {
 
 body {
   font-size: 14px; }
+  @media handheld, only screen and (max-width: 767px) {
+    body {
+      font-size: 12px; } }
 
 .white {
   color: #fff; }
@@ -1083,13 +1091,24 @@ button.submit-mail {
   display: block; }
 
 .blog-header {
-  height: 60px;
+  height: 120px;
   background-color: #fff;
   width: 100%; }
-  .blog-header h1 {
+  .blog-header .logo-container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px; }
+    display: block; }
+  .blog-header img {
+    margin: 10px auto 0 auto; }
+    @media handheld, only screen and (max-width: 767px) {
+      .blog-header img {
+        margin: 10px; } }
+  .blog-header h1 {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-indent: -9999999px;
+    background-size: auto 60px;
+    background-repeat: no-repeat; }
 
 #blog {
   background-color: #F2F2F2;
@@ -1106,15 +1125,20 @@ button.submit-mail {
     padding: .5em 1em; }
   #blog .page-heading {
     margin: 1em 0 -1.5em 0;
-    font-size: 34px; }
+    font-size: 34px;
+    text-transform: capitalize; }
   #blog h1 {
     margin: 15px 0;
-    font-size: 25px; }
+    font-size: 1.6em;
+    text-transform: capitalize; }
   #blog .col-8-12, #blog .col-4-12 {
     padding: 0 1em; }
   #blog .col-4-12 {
     margin-top: 6.2em;
     padding-left: 5em; }
+    @media handheld, only screen and (max-width: 767px) {
+      #blog .col-4-12 {
+        padding-left: 10px; } }
     #blog .col-4-12 .blog-intro {
       border-left: 1px solid #D8D8D8;
       padding-left: 1.5em; }
@@ -1148,7 +1172,8 @@ button.submit-mail {
   #blog .img-post {
     width: 100%;
     height: 390px;
-    background-size: cover; }
+    background-size: cover;
+    background-position: 50%; }
   #blog .category-post {
     margin-top: 2em;
     font-size: 13px; }
@@ -1157,8 +1182,10 @@ button.submit-mail {
       text-transform: uppercase;
       font-weight: 700;
       color: #D8D8D8; }
+  #blog .post-link {
+    color: #f15c27; }
   #blog .post {
-    margin-top: 65px;
+    margin-top: 4.5em;
     background-color: #fff;
     border: 1px solid #D8D8D8;
     width: 100%; }
