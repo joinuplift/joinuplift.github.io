@@ -1,7 +1,7 @@
 module.exports = {
 	css: {
 		files: '_src/sass/**/*.scss', 
-		tasks: ['sass'],
+		tasks: ['sass', 'cssmin'],
 	},
 	images: {
 		files: '_src/img/**/*.{png,jpg,gif,svg}',

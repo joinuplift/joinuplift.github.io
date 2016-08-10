@@ -37,7 +37,8 @@ grunt.registerTask('serve', [
 grunt.registerTask('build', [
     'shell:jekyllBuild',
     'sass',
-    'newer:imagemin:dynamic'
+    'newer:imagemin:dynamic',
+    'cssmin'
 ]);
 
 grunt.registerTask('svgsprite', [

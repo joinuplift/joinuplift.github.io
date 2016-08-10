@@ -224,6 +224,10 @@ button {
     padding: 10px 30px;
     border: 1px solid;
     right: 14%;
+    @media #{$brk-narrow} {
+    	left: 20px;
+    	right: initial !important;
+    }
 }
 
 #blog .post .blog-excerpt .share-buttons {
