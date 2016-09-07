@@ -5,7 +5,8 @@ description: >
   Uplift is a rapidly growing initiative committed to empowering the next one million 
   women and families in 20 countries with basic skills, training and assets to overcome extreme poverty.
 baseurl: ""
-url: "http://joinuplift.org" # the base hostname & protocol for your site
+url: "https://joinuplift.org" # the base hostname & protocol for your site
+enforce_ssl: joinuplift.org   # without any protocol
 
 # Build settings
 markdown: kramdown
