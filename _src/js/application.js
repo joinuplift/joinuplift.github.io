@@ -84,9 +84,9 @@ $(function() {
             data: {message: "This person would like to learn more about https://joinuplift.org"},
             dataType: "json"
         }).done(function(){
-            $('.contact-form').html('<p>Message sent!</p>');
+            $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #CCFFCC;">Message sent!</p>');
         }).fail(function(){
-            $('.contact-form').html('<p>Oops, something is wrong, your message was not sent!</p>');
+            $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #FF9999;">Oops, something is wrong, your message was not sent!</p>');
         });
     });
 });
