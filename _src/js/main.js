@@ -34,3 +34,18 @@ $(document).ready(function(){
       $( "#tabs" ).tabs("option","disabled", [0,1,2,3]);
     }
 });
+
+$(function() {
+  $('button.submit.submit-mail').on('click', function(){
+        $.ajax({
+            url: "https://formspree.io/contact@joinuplift.org", 
+            method: "POST",
+            data: {message: "This person would like to learn more about https://joinuplift.org"},
+            dataType: "json"
+        });
+    }).done(function(){
+        $('.contact-form').html('<p>Message sent!</p>');
+    }).fail(function(){
+        $('.contact-form').html('<p>Oops, something is wrong, your message was not sent!</p>');
+    });
+});
