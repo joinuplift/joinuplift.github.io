@@ -258,7 +258,7 @@ layout: default
             dollar of your <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U859T4GFZP33Y" target="_blank">donation</a> will support Graduation Programs and empower more women and families and empower them to rise above extreme poverty. To contribute to Uplift, please <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U859T4GFZP33Y" target="_blank">click here</a>.
         </p><br/><br/>
         <p class="limited center">To find out more about investment and partnership opportunities, please share your information here.</p>
-        <form action="https://formspree.io/contact@joinuplift.org" method="POST">
+        <form action="https://formspree.io/contact@joinuplift.org" method="POST" class="contact-form">
             <fieldset class="center"><br/>
                 <label for="name">Your Name</label>
                 <input type="text" name="name" placeholder="Name*" id="cname" required>
@@ -285,3 +285,18 @@ layout: default
     </div>
     <div class="photo-credit">Photo credit: Amplifier</div>
 </div>
+
+<script type="text/javascript">
+    $('button.submit.submit-mail').on('click', function(){
+        $.ajax({
+            url: "https://formspree.io/contact@joinuplift.org", 
+            method: "POST",
+            data: {message: "This person would like to learn more about https://joinuplift.org"},
+            dataType: "json"
+        });
+    }).done(function(){
+        $('.contact-form').html('<p>Message sent!</p>');
+    }).fail(function(){
+        $('.contact-form').html('<p>Oops, something is wrong, your message was not sent!</p>');
+    });
+</script>
