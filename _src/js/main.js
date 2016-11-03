@@ -42,10 +42,10 @@ $(function() {
             method: "POST",
             data: {message: "This person would like to learn more about https://joinuplift.org"},
             dataType: "json"
+        }).done(function(){
+            $('.contact-form').html('<p>Message sent!</p>');
+        }).fail(function(){
+            $('.contact-form').html('<p>Oops, something is wrong, your message was not sent!</p>');
         });
-    }).done(function(){
-        $('.contact-form').html('<p>Message sent!</p>');
-    }).fail(function(){
-        $('.contact-form').html('<p>Oops, something is wrong, your message was not sent!</p>');
     });
 });
