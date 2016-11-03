@@ -37,10 +37,16 @@ $(document).ready(function(){
 
 $(function() {
   $('button.submit.submit-mail').on('click', function(){
+    
+    var dataObject = new Object();
+        dataObject.name = $('#cname').value();
+        dataObject.email = $('#cemail').value();
+        dataObject.message = `This person would like to learn more about https://joinuplift.org`;
+        
         $.ajax({
             url: "https://formspree.io/contact@joinuplift.org", 
             method: "POST",
-            data: {message: "This person would like to learn more about https://joinuplift.org"},
+            data: {dataObject},
             dataType: "json"
         }).done(function(){
             $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #CCFFCC;">Message sent!</p>');
