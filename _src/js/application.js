@@ -76,23 +76,23 @@ if(!(b.options.swipe===!1||"ontouchend"in document&&b.options.swipe===!1||b.opti
     }
 });
 
-$(function() {
-  $('button.submit.submit-mail').on('click', function(){
+// $(function() {
+//   $('button.submit.submit-mail').on('click', function(){
     
-    var dataObject = new Object();
-        dataObject.name = $('#cname').value();
-        dataObject.email = $('#cemail').value();
-        dataObject.message = `This person would like to learn more about https://joinuplift.org`;
+//     var dataObject = new Object();
+//         dataObject.name = $('#cname').value();
+//         dataObject.email = $('#cemail').value();
+//         dataObject.message = "This person would like to learn more about https://joinuplift.org";
         
-        $.ajax({
-            url: "https://formspree.io/contact@joinuplift.org", 
-            method: "POST",
-            data: {dataObject},
-            dataType: "json"
-        }).done(function(){
-            $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #CCFFCC;">Message sent!</p>');
-        }).fail(function(){
-            $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #FF9999;">Oops, something is wrong, your message was not sent!</p>');
-        });
-    });
-});
+//         $.ajax({
+//             url: "https://formspree.io/contact@joinuplift.org", 
+//             method: "POST",
+//             data: {dataObject},
+//             dataType: "json"
+//         }).done(function(){
+//             $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #CCFFCC;">Message sent!</p>');
+//         }).fail(function(){
+//             $('.contact-form').html('<p style="text-align: center; padding: 5px;background: #FF9999;">Oops, something is wrong, your message was not sent!</p>');
+//         });
+//     });
+// });
